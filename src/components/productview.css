@@ -1,0 +1,130 @@
+.prod-view {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.left-img {
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.half-displey{
+  flex: 1;
+}
+
+.back-img {
+  height: 220px;
+  width: 500px;
+  background: #F5F5F5;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold-pottery {
+  background-image: url(./Png/Goldblackpottery.png);
+  width: 250px;
+  height: 509px;
+}
+
+.gold-pottery-text {
+  
+  font-family: sans-serif;
+  flex: 1;
+
+}
+
+.gold-pottery-text h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.gold-pottery-text p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C6C6C;
+  margin-top: 23px;
+  width: 388px;
+}
+
+.gold-pottery-text h4 {
+  margin-top: 27px;
+}
+
+.gold-pottery-text h4:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #AC1313;
+}
+
+.right-img {
+  display: flex;
+  margin-bottom: 15%;
+  justify-content: center;
+  
+}
+
+.orangecermic-center { 
+  display: flex;
+
+  width: 100%;
+  margin-top: 10%;
+}
+
+.orangecermic-text {  
+  
+    font-family: sans-serif;
+    margin-right: -15%;
+    margin-left: 15%;
+    flex: 1;
+  }
+  
+  .orangecermic-text h2 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .orangecermic-text p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+    margin-top: 23px;
+    width: 388px;
+  }
+  
+  .orangecermic-text h4 {
+    margin-top: 27px;
+  }
+
+  .orangecermic-text h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #AC1313;
+  }
+
+.orangecermic-img {
+ 
+  flex: 1;
+}
+
+.back-img-right{
+  
+  height: 220px;
+  width: 500px;
+  background: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orangecermic {
+  
+  background-image: url(./Png/orangecermic.png);
+  width: 350px;
+  height: 417px;
+}

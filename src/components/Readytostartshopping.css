@@ -1,0 +1,72 @@
+.Readytostartshopping{
+  
+  background-image: url(./Png/backgimg-2.png);
+  height: 471px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.text-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+.h2text {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 1% 0;
+}
+
+.ptext {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6C6C6C;
+  display: flex;
+}
+
+.ptext pre {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #AC1313;
+  text-decoration: underline;
+}
+
+.ptext pre:hover {
+  cursor: pointer;
+  color: #000000;
+  
+}
+
+
+.new-btn {
+  background: #AC1313;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 23px 30px;
+  height: 62px;
+  width: 195px;
+  margin-top: 3%;
+}
+
+.new-btn:hover {
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: underline;
+}

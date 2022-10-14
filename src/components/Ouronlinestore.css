@@ -1,0 +1,92 @@
+.online-store {
+  margin-top: 10%;
+}
+
+.Productsimg {
+  margin-top: 5%;
+
+  display: grid;
+  grid-template-areas: 'auto auto auto';
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+}
+
+.Productsimg p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #6C6C6C;
+  margin-top: 20px;
+}
+
+.Productsimg h5 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.img-size {
+  height: 494px;
+  width: 371px;
+}
+
+.img-size:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.DecorPlate {
+  background-image: url(./Png/DecorPlate.png);  
+  
+}
+.MintPottery {
+  background-image: url(./Png/MintPottery.png);
+}
+.SetOfPotterys {
+  background-image: url(./Png/SetOfPotterys.png);
+}
+
+.OrangeCeramic {
+  background-image: url(./Png/OrangeCeramic.png);
+}
+
+.DarkBowl {
+  background-image: url(./Png/DarkBowl.png);
+}
+.SquarePottery {
+  background-image: url(./Png/SquarePottery.png);
+}
+
+.btn-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.view-btn {
+  background: #AC1313;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 23px 30px;
+}
+
+.view-btn:hover {
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: underline;
+
+}

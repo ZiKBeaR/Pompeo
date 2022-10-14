@@ -1,0 +1,87 @@
+.head {
+  border: 0px solid black;
+  background-image: url(./Png/backgimg-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 10px;
+}
+
+.head-center {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: inherit;
+}
+
+.head-left {
+  flex: 1;
+}
+
+.Pompeo {
+  font-family: sans-serif; 
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #D77474;
+}
+
+.h1text {
+  font-family: sans-serif;
+  font-size: 48px;
+  margin-top: 12px;
+  width: 200%;
+}
+
+.head-left p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  color: #6C6C6C;
+}
+
+.shop-btn {  
+  background: #AC1313;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  width: 40%;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.shop-btn:hover {
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.head-right {
+  background-image: url(./Png/image-1.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 1000px;
+  flex: 1;
+}
